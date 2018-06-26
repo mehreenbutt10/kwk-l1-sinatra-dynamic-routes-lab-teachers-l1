@@ -14,13 +14,10 @@ class App < Sinatra::Base
   end
   
   get '/say/:number/:phrase'
-      
+    @number = number  
   end
   
   
-  get '/name' do
-    erb :name
-  end
   
 
 end
