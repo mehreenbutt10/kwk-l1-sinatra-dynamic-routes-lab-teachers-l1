@@ -16,5 +16,10 @@ class App < Sinatra::Base
   get '/say/:number/:phrase'
       
   end
+  
+  
+  get '/name' do
+  
+end
 
 end
