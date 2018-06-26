@@ -16,7 +16,7 @@ class App < Sinatra::Base
   get '/say/:number/:phrase'
     @number = number.to_i
     @phrase = phrase
-    puts "#{@phrase}"
+    puts "#{@phrase}"* @number
   end
   
   
